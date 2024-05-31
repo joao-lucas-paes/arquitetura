@@ -1,0 +1,25 @@
+[SPLASH] Benchmarks to run: barnes
+
+[SPLASH] [========== Running benchmark barnes ==========]
+[SPLASH] Setting up run directory: /tmp/tmpemniDi
+[SPLASH] Running '/root/sniper/record-trace --routine-tracing -o /tmp/tmpqZmHap/run_benchmarks -e 1 -r 1 -s 0 --roi -- /root/benchmarks/splash2/splash2/codes/apps/barnes/BARNES < input':
+[SPLASH] [---------- Beginning of output ----------]
+
+Hack code: Plummer model
+
+nbody dtime eps tol dtout tstop fcells NPROC
+16384 0.02500 0.0500 1.00 0.250 0.075 2.00 22
+
+[HOOKS] Entering ROI
+COMPUTESTART = 2450568903
+[HOOKS] Leaving ROI
+COMPUTEEND = 2450605219
+COMPUTETIME = 36316
+TRACKTIME = 17115
+PARTITIONTIME = 47 0.00
+TREEBUILDTIME = 1099 0.06
+FORCECALCTIME = 15188 0.89
+RESTTIME = 781 0.05
+[RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[SPLASH] [---------- End of output ----------]
+[SPLASH] Done.

@@ -1,0 +1,39 @@
+[SPLASH] Benchmarks to run: raytrace_opt
+
+[SPLASH] [========== Running benchmark raytrace ==========]
+[SPLASH] Setting up run directory: /tmp/tmpHQLqmZ
+[SPLASH] Extracting output: mkdir /tmp/tmpHQLqmZ/inputs; gunzip < /root/benchmarks/splash2/splash2/codes/apps/raytrace/inputs/car.env.Z > /tmp/tmpHQLqmZ/inputs/car.env; gunzip < /root/benchmarks/splash2/splash2/codes/apps/raytrace/inputs/car.geo.Z > /tmp/tmpHQLqmZ/inputs/car.geo
+[SPLASH] Running '/root/sniper/record-trace --routine-tracing -o /tmp/tmpi9hl0q/run_benchmarks -e 1 -r 1 -s 0 --roi -- /root/benchmarks/splash2/splash2/codes/apps/raytrace/RAYTRACE.opt -p23 -m64 inputs/car.env':
+[SPLASH] [---------- Beginning of output ----------]
+
+Number of processors: 23
+Global shared memory size: 64 MB
+Samples per pixel: 1
+
+Number of primitive objects: 7629
+Number of primitive elements: 46423
+Uniform Hierarchy built.
+[HOOKS] Entering ROI
+[HOOKS] Leaving ROI
+
+benchmark-app0-run0.log sim.cfg sim.stats.sqlite3 Hierarchial uniform grid memory allocation summary benchmark-app0-run0.log sim.cfg sim.stats.sqlite3
+
+< struct >: < current > < maximum > < sizeof >
+< bytes >: < bytes > < bytes > < bytes >
+
+grid: 59760 59760 144
+hashtable entries: 678968 678968 8
+emptycell entries: 6632 6632 8
+voxel: 1251480 1251480 40
+bintree_node: 12370320 12370320 120
+
+Totals: 14367160 14367160
+
+TIMING STATISTICS MEASURED BY MAIN PROCESS:
+Overall start time 1337000000386206
+Overall end time 1337000000397313
+Total time with initialization 11107
+Total time without initialization 11091
+[RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[SPLASH] [---------- End of output ----------]
+[SPLASH] Done.

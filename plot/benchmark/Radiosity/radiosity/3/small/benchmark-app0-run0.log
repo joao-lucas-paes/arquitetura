@@ -1,0 +1,13 @@
+[SPLASH] Benchmarks to run: radiosity
+
+[SPLASH] [========== Running benchmark radiosity ==========]
+[SPLASH] Setting up run directory: /tmp/tmpvEKctL
+[SPLASH] Running '/root/sniper/record-trace --routine-tracing -o /tmp/tmpyPXWt1/run_benchmarks -e 1 -r 1 -s 0 --roi -- /root/benchmarks/splash2/splash2/codes/apps/radiosity/RADIOSITY -p 3 -room -ae 5000 -en 0.05 -bf 0.10 -batch':
+[SPLASH] [---------- Beginning of output ----------]
+[HOOKS] Entering ROI
+[HOOKS] Leaving ROI
+[SIFT_RECORDER] emulation.cc:114: ADDRINT emuGettimeofday(LEVEL_VM::THREADID, timeval*, timezone*): Assertion `emulated' failed.
+Pin app terminated abnormally due to signal 6.
+[RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[SPLASH] [---------- End of output ----------]
+[SPLASH] Done.

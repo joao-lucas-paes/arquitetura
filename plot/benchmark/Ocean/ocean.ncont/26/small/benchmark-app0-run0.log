@@ -1,0 +1,11 @@
+[SPLASH] Benchmarks to run: ocean.ncont
+
+[SPLASH] [========== Running benchmark ocean.ncont ==========]
+[SPLASH] Setting up run directory: /tmp/tmpbO8nVU
+[SPLASH] Running '/root/sniper/record-trace --routine-tracing -o /tmp/tmpkXHtv4/run_benchmarks -e 1 -r 1 -s 0 --roi -- /root/benchmarks/splash2/splash2/codes/apps/ocean/non_contiguous_partitions/OCEAN -n258 -p26':
+[SPLASH] [---------- Beginning of output ----------]
+ERROR: P must be a power of 2
+
+[RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[SPLASH] [---------- End of output ----------]
+[SPLASH] Done.

@@ -1,0 +1,34 @@
+[SPLASH] Benchmarks to run: fft
+
+[SPLASH] [========== Running benchmark fft ==========]
+[SPLASH] Setting up run directory: /tmp/tmpATNek_
+[SPLASH] Running '/root/sniper/record-trace --routine-tracing -o /tmp/tmpDj9ZlA/run_benchmarks -e 1 -r 1 -s 0 --roi -- /root/benchmarks/splash2/splash2/codes/kernels/fft/FFT -m18 -p4':
+[SPLASH] [---------- Beginning of output ----------]
+
+FFT with Blocking Transpose
+262144 Complex Doubles
+4 Processors
+65536 Cache lines
+16 Byte line size
+4096 Bytes per page
+
+[HOOKS] Entering ROI
+[HOOKS] Leaving ROI
+
+PROCESS STATISTICS
+Computation Transpose Transpose
+Proc Time Time Fraction
+0 16987 4159 0.24483
+
+TIMING INFORMATION
+Start time : -1844408258
+Initialization finish time : -1844384068
+Overall finish time : -1844367081
+Total time with initialization : 41177
+Total time without initialization : 16987
+Overall transpose time : 4159
+Overall transpose fraction : 0.24483
+
+[RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[SPLASH] [---------- End of output ----------]
+[SPLASH] Done.

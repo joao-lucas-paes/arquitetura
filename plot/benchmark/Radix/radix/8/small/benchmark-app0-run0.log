@@ -1,0 +1,31 @@
+[SPLASH] Benchmarks to run: radix
+
+[SPLASH] [========== Running benchmark radix ==========]
+[SPLASH] Setting up run directory: /tmp/tmpgQ1_v6
+[SPLASH] Running '/root/sniper/record-trace --routine-tracing -o /tmp/tmpwHATDO/run_benchmarks -e 1 -r 1 -s 0 --roi -- /root/benchmarks/splash2/splash2/codes/kernels/radix/RADIX -n262144 -p8':
+[SPLASH] [---------- Beginning of output ----------]
+
+Integer Radix Sort
+262144 Keys
+8 Processors
+Radix = 1024
+Max key = 524288
+
+[HOOKS] Entering ROI
+[HOOKS] Leaving ROI
+
+PROCESS STATISTICS
+Total Rank Sort
+Proc Time Time Time
+0 1089 411 558
+
+TIMING INFORMATION
+Start time : -1844408258
+Initialization finish time : -1844406527
+Overall finish time : -1844405438
+Total time with initialization : 2820
+Total time without initialization : 1089
+
+[RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[SPLASH] [---------- End of output ----------]
+[SPLASH] Done.

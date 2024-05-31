@@ -1,0 +1,51 @@
+[SPLASH] Benchmarks to run: cholesky
+
+[SPLASH] [========== Running benchmark cholesky ==========]
+[SPLASH] Setting up run directory: /tmp/tmptSncqF
+[SPLASH] Extracting output: gunzip < /root/benchmarks/splash2/splash2/codes/kernels/cholesky/inputs/tk25.O.Z > /tmp/tmptSncqF/tk25.O
+[SPLASH] Running '/root/sniper/record-trace --routine-tracing -o /tmp/tmplFuwaQ/run_benchmarks -e 1 -r 1 -s 0 --roi -- /root/benchmarks/splash2/splash2/codes/kernels/cholesky/CHOLESKY -p2 tk25.O':
+[SPLASH] [---------- Beginning of output ----------]
+
+Sparse Cholesky Factorization
+Problem:
+2 Processors
+Postpass partition size: 32
+16384 byte cache
+
+
+true partitions
+Fan-out, no block copy-across
+LB domain, embedded distribution
+No ordering
+7288 supers, 2.12 nodes/super, 179 max super
+7288/3401 supers before/after
+283747754/302038559 (1.06) ops before/after amalgamation
+before partition
+Divide for 2 P, 37 domains, 0.94 of work static, 1.00 eff, (inf overall)
+101890 total domain updates
+2221 max height, 302038559 ops, 45330.72 conc, 150.55 bl for 2 P
+Target partition size 0, postpass size 32
+Processor array is 2 by 1
+No redistribution
+Supers: 48: 1 331: 1
+Blocks: 24: 2 33: 9 34: 1
+12 partitions
+12 partitions, 132 blocks
+[HOOKS] Entering ROI
+[HOOKS] Leaving ROI
+302038559 operations for factorization
+
+PROCESS STATISTICS
+Total
+Proc Time
+0 116934
+TIMING INFORMATION
+Start time : -1844408257
+Initialization finish time : -1844317012
+Overall finish time : -1844200078
+Total time with initialization : 208179
+Total time without initialization : 116934
+
+[RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[SPLASH] [---------- End of output ----------]
+[SPLASH] Done.

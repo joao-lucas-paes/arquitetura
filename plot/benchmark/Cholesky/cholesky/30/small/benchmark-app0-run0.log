@@ -1,0 +1,34 @@
+[SPLASH] Benchmarks to run: cholesky
+
+[SPLASH] [========== Running benchmark cholesky ==========]
+[SPLASH] Setting up run directory: /tmp/tmpZhWxlt
+[SPLASH] Extracting output: gunzip < /root/benchmarks/splash2/splash2/codes/kernels/cholesky/inputs/tk25.O.Z > /tmp/tmpZhWxlt/tk25.O
+[SPLASH] Running '/root/sniper/record-trace --routine-tracing -o /tmp/tmp_T6KGM/run_benchmarks -e 1 -r 1 -s 0 --roi -- /root/benchmarks/splash2/splash2/codes/kernels/cholesky/CHOLESKY -p30 tk25.O':
+[SPLASH] [---------- Beginning of output ----------]
+
+Sparse Cholesky Factorization
+Problem:
+30 Processors
+Postpass partition size: 32
+16384 byte cache
+
+
+true partitions
+Fan-out, no block copy-across
+LB domain, embedded distribution
+No ordering
+7288 supers, 2.12 nodes/super, 179 max super
+7288/3401 supers before/after
+283747754/302038559 (1.06) ops before/after amalgamation
+before partition
+Divide for 30 P, 236 domains, 0.16 of work static, 0.86 eff, (inf overall)
+659433 total domain updates
+2221 max height, 302038559 ops, 45330.72 conc, 38.87 bl for 30 P
+Target partition size 0, postpass size 32
+Processor array is 6 by 5
+No redistribution
+Supers: 16: 2 18: 1 24: 2 25: 2 27: 1 28: 2 30: 1 32: 2 33: 1 34: 1 37: 2 39: 2 44: 1 45: 1 46: 1 48: 1 51: 1 52: 1 57: 1 58: 1 61: 1 63: 1 65: 1 69: 2 72: 1 73: 1 74: 1 77: 1 78: 1 79: 1 80: 1 83: 1 84: 1 85: 2 86: 1 87: 1 96: 1 102: 1 104: 2 107: 2 114: 1 123: 1 127: 1 128: 1 130: 1 331: 1
+Blocks: 16: 2 18: 1 22: 3 23: 3 24: 4 25: 3 26: 9 27: 5 28: 15 29: 12 30: 3 31: 6 32: 16 33: 13 34: 9 35: 8 36: 7 37: 5 38: 1 39: 3
+128 partitions
+128 partitions, 2426 blocks
+[HOOKS] Entering ROI

@@ -1,0 +1,38 @@
+                                   | Core 0     | Core 1     | Core 2     | Core 3     | Core 4     | Core 5    
+  Instructions                     |    5168888 |          0 |          0 |          0 |          0 |          0
+  Cycles                           |    8892582 |    8892582 |    8892582 |    8892582 |    8892582 |    8892582
+  IPC                              |       0.58 |       0.00 |       0.00 |       0.00 |       0.00 |       0.00
+  Time (ns)                        |    3343076 |    3343076 |    3343076 |    3343076 |    3343076 |    3343076
+  Idle time (ns)                   |         -9 |    3343076 |    3343076 |    3343076 |    3343076 |    3343076
+  Idle time (%)                    |      -0.0% |     100.0% |     100.0% |     100.0% |     100.0% |     100.0%
+Branch predictor stats             |            |            |            |            |            |           
+  num correct                      |     909700 |          0 |          0 |          0 |          0 |          0
+  num incorrect                    |        447 |          0 |          0 |          0 |          0 |          0
+  misprediction rate               |      0.05% |      0.00% |      0.00% |      0.00% |      0.00% |      0.00%
+  mpki                             |       0.09 |       0.00 |       0.00 |       0.00 |       0.00 |       0.00
+TLB Summary                        |            |            |            |            |            |           
+Cache Summary                      |            |            |            |            |            |           
+  Cache L1-I                       |            |            |            |            |            |           
+    num cache accesses             |          0 |          0 |          0 |          0 |          0 |          0
+    num cache misses               |          0 |          0 |          0 |          0 |          0 |          0
+    miss rate                      |       inf% |       inf% |       inf% |       inf% |       inf% |       inf%
+    mpki                           |       0.00 |        inf |        inf |        inf |        inf |        inf
+  Cache L1-D                       |            |            |            |            |            |           
+    num cache accesses             |    1900044 |          0 |          0 |          0 |          0 |          0
+    num cache misses               |      24942 |          0 |          0 |          0 |          0 |          0
+    miss rate                      |      1.31% |       inf% |       inf% |       inf% |       inf% |       inf%
+    mpki                           |       4.83 |        inf |        inf |        inf |        inf |        inf
+  Cache L2                         |            |            |            |            |            |           
+    num cache accesses             |      24942 |          0 |          0 |          0 |          0 |          0
+    num cache misses               |      24881 |          0 |          0 |          0 |          0 |          0
+    miss rate                      |     99.76% |       inf% |       inf% |       inf% |       inf% |       inf%
+    mpki                           |       4.81 |        inf |        inf |        inf |        inf |        inf
+  Cache L3                         |            |            |            |            |            |           
+    num cache accesses             |      24881 |          0 |          0 |          0 |          0 |          0
+    num cache misses               |      24772 |          0 |          0 |          0 |          0 |          0
+    miss rate                      |     99.56% |       inf% |       inf% |       inf% |       inf% |       inf%
+    mpki                           |       4.79 |        inf |        inf |        inf |        inf |        inf
+DRAM summary                       |            |            |            |            |            |           
+  num dram accesses                |      24772 |          0 |          0 |          0 |          0 |          0
+  average dram access latency (ns) |      56.39 |        inf |        inf |        inf |        inf |        inf
+  average dram queueing delay      |       0.00 |       0.00 |       0.00 |       0.00 |       0.00 |       0.00

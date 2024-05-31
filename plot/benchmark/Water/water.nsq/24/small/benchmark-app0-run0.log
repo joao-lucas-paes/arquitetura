@@ -1,0 +1,53 @@
+[SPLASH] Benchmarks to run: water.nsq
+
+[SPLASH] [========== Running benchmark water.nsq ==========]
+[SPLASH] Setting up run directory: /tmp/tmpvVNLA7
+[SPLASH] Running '/root/sniper/record-trace --routine-tracing -o /tmp/tmp80TtlO/run_benchmarks -e 1 -r 1 -s 0 --roi -- /root/benchmarks/splash2/splash2/codes/apps/water-nsquared/WATER-NSQUARED < input':
+[SPLASH] [---------- Beginning of output ----------]
+Using 24 procs on 3 steps of 512 mols
+Other parameters:
+TSTEP = 1.50e-16
+NORDER = 6
+NSAVE = -1
+NRST = 3000
+NPRINT = 3
+NFMC = 0
+CUTOFF = 6.212752
+
+
+TEMPERATURE = 298.00 K
+DENSITY = 0.99800 G/C.C.
+NUMBER OF MOLECULES = 512
+NUMBER OF PROCESSORS = 24
+TIME STEP = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA = 6
+NO. OF TIME STEPS = 3
+FREQUENCY OF DATA SAVING = -1
+FREQUENCY TO WRITE RST FILE= 3000
+SPHERICAL CUTOFF RADIUS = 6.2128 ANGSTROM
+
+NS = 7.9999899999999995
+BOXL = 24.851010
+CUTOFF = 6.212752
+XS = 3.106380
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+benchmark-app0-run0.log sim.cfg sim.stats.sqlite3 NEW RUN STARTING FROM REGULAR LATTICE benchmark-app0-run0.log sim.cfg sim.stats.sqlite3
+[HOOKS] Entering ROI
+CREATETIME = 52
+3 1.56363 0.05504 10.58529 -2.17835
+10.026 304.35093 -19.57001
+[HOOKS] Leaving ROI
+COMPUTESTART (after initialization) = 2450574513
+COMPUTEEND = 2450586603
+COMPUTETIME (after initialization) = 12090
+Measured Time (2nd timestep onward) = 7008
+Intramolecular time only (2nd timestep onward) = 207
+Intermolecular time only (2nd timestep onward) = 6751
+Other time (2nd timestep onward) = 50
+
+Exited Happily with XTT = 10.0256 (note: XTT value is garbage if NPRINT > NSTEP)
+[RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[SPLASH] [---------- End of output ----------]
+[SPLASH] Done.

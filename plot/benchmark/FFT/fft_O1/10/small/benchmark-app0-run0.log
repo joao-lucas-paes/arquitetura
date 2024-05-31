@@ -1,0 +1,11 @@
+[SPLASH] Benchmarks to run: fft_O1
+
+[SPLASH] [========== Running benchmark fft ==========]
+[SPLASH] Setting up run directory: /tmp/tmprPevWu
+[SPLASH] Running '/root/sniper/record-trace --routine-tracing -o /tmp/tmpntVUUK/run_benchmarks -e 1 -r 1 -s 0 --roi -- /root/benchmarks/splash2/splash2/codes/kernels/fft/FFT-O1 -m18 -p10':
+[SPLASH] [---------- Beginning of output ----------]
+ERROR: P must be a power of 2
+
+[RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[SPLASH] [---------- End of output ----------]
+[SPLASH] Done.

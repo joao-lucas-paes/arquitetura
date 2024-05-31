@@ -1,0 +1,35 @@
+[SPLASH] Benchmarks to run: volrend
+
+[SPLASH] [========== Running benchmark volrend ==========]
+[SPLASH] Setting up run directory: /tmp/tmpuc8Ahl
+[SPLASH] Extracting output: tar xzv -C /tmp/tmpuc8Ahl -f /root/benchmarks/splash2/splash2/codes/apps/volrend/inputs/head-scaleddown2.tgz
+head-scaleddown2.norm
+head-scaleddown2.opc
+head-scaleddown2.pyr
+[SPLASH] Running '/root/sniper/record-trace --routine-tracing -o /tmp/tmpaCkNwK/run_benchmarks -e 1 -r 1 -s 0 --roi -- /root/benchmarks/splash2/splash2/codes/apps/volrend/VOLREND 23 head-scaleddown2':
+[SPLASH] [---------- Beginning of output ----------]
+Rendering only: Starting from .norm, .opc and .pyr files
+Gouraud shading from lookup tables used
+23 processes
+4x4 image block size
+doing nonadaptive rendering
+using precomputed normals and opacities in separate array
+using opacity octree
+starting angle at (90.0, -36.0, 0.0) with rotation step of 3
+rotating 4 steps in the Y direction
+
+*****Entering init_decomposition with num_nodes = 23
+*****Exited init_decomposition with num_nodes = 23
+Allocating normal map of 1714608 bytes...
+Loading normal map from .norm file...
+Read failed on file 1920561198
+wall clock execution time to compute normal: 0 ms
+Allocating opacity map of 857304 bytes...
+Loading opacity map from .opc file...
+wall clock execution time to compute opacity: 2 ms
+Allocating shade lookup table of 7938 bytes...
+Allocating image of 34596 bytes...
+Allocating image of 16 bytes...
+[RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[SPLASH] [---------- End of output ----------]
+[SPLASH] Done.

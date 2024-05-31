@@ -1,0 +1,30 @@
+[SPLASH] Benchmarks to run: lu.cont
+
+[SPLASH] [========== Running benchmark lu.cont ==========]
+[SPLASH] Setting up run directory: /tmp/tmp8I0Mbf
+[SPLASH] Running '/root/sniper/record-trace --routine-tracing -o /tmp/tmpN7HS0t/run_benchmarks -e 1 -r 1 -s 0 --roi -- /root/benchmarks/splash2/splash2/codes/kernels/lu/contiguous_blocks/LU -n512 -p26':
+[SPLASH] [---------- Beginning of output ----------]
+
+Blocked Dense LU Factorization
+512 by 512 Matrix
+26 Processors
+16 by 16 Element Blocks
+
+
+[HOOKS] Entering ROI
+[HOOKS] Leaving ROI
+PROCESS STATISTICS
+Total Diagonal Perimeter Interior Barrier
+Proc Time Time Time Time Time
+0 10518 10 314 4888 5304
+
+TIMING INFORMATION
+Start time : -1844408257
+Initialization finish time : -1844392894
+Overall finish time : -1844382355
+Total time with initialization : 25902
+Total time without initialization : 10539
+
+[RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[SPLASH] [---------- End of output ----------]
+[SPLASH] Done.

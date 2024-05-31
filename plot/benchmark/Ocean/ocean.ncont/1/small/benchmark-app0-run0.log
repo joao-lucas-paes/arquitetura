@@ -1,0 +1,33 @@
+[SPLASH] Benchmarks to run: ocean.ncont
+
+[SPLASH] [========== Running benchmark ocean.ncont ==========]
+[SPLASH] Setting up run directory: /tmp/tmpusPPbz
+[SPLASH] Running '/root/sniper/record-trace --routine-tracing -o /tmp/tmpXNc9IP/run_benchmarks -e 1 -r 1 -s 0 --roi -- /root/benchmarks/splash2/splash2/codes/apps/ocean/non_contiguous_partitions/OCEAN -n258 -p1':
+[SPLASH] [---------- Beginning of output ----------]
+
+Ocean simulation with W-cycle multigrid solver
+Processors : 1
+Grid size : 258 x 258
+Grid resolution (meters) : 20000.00
+Time between relaxations (seconds) : 28800
+Error tolerance : 1e-07
+
+[HOOKS] Entering ROI
+[HOOKS] Leaving ROI
+
+PROCESS STATISTICS
+Total Multigrid Multigrid
+Proc Time Time Fraction
+0 258923 65826 0.254
+
+TIMING INFORMATION
+Start time : -1844408258
+Initialization finish time : -1844270601
+Overall finish time : -1844011678
+Total time with initialization : 396580
+Total time without initialization : 258923
+(excludes first timestep)
+
+[RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[SPLASH] [---------- End of output ----------]
+[SPLASH] Done.

@@ -1,0 +1,28 @@
+[SPLASH] Benchmarks to run: fmm
+
+[SPLASH] [========== Running benchmark fmm ==========]
+[SPLASH] Setting up run directory: /tmp/tmp1UN3cO
+[SPLASH] Running '/root/sniper/record-trace --routine-tracing -o /tmp/tmpL1_ziv/run_benchmarks -e 1 -r 1 -s 0 --roi -- /root/benchmarks/splash2/splash2/codes/apps/fmm/FMM < input':
+[SPLASH] [---------- Beginning of output ----------]
+Creating a two cluster, non uniform distribution for 16384 particles
+[HOOKS] Entering ROI
+Starting FMM with 28 processors
+[HOOKS] Leaving ROI
+Finished FMM
+PROCESS STATISTICS
+Track Tree List Part Pass Inter Bar Intra Other
+Proc Time Time Time Time Time Time Time Time Time
+0 26868 247 401 352 2515 18860 4212 34 242
+
+TIMING INFORMATION
+Start time : -1844408258
+Initialization finish time : -1844369167
+Overall finish time : -1844342300
+Total time with initialization : 65958
+Total time without initialization : 26943
+
+Total time for steps 3 to 5 : 26943
+
+[RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[SPLASH] [---------- End of output ----------]
+[SPLASH] Done.
